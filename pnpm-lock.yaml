@@ -880,7 +880,7 @@ importers:
         version: 4.1.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       react-vega:
         specifier: ^7.6.0
-        version: 7.6.0(react@19.0.0)(vega-lite@5.16.1(vega@5.26.0(encoding@0.1.13)))(vega@5.26.0(encoding@0.1.13))
+        version: 7.6.0(react@19.0.0)(vega-lite@5.16.1(vega@5.31.0(encoding@0.1.13)))(vega@5.31.0(encoding@0.1.13))
       recharts:
         specifier: ^2.15.0
         version: 2.15.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -918,11 +918,11 @@ importers:
         specifier: ^8.3.2
         version: 8.3.2
       vega:
-        specifier: ^5.26.0
-        version: 5.26.0(encoding@0.1.13)
+        specifier: ^5.31.0
+        version: 5.31.0(encoding@0.1.13)
       vega-lite:
         specifier: ^5.16.1
-        version: 5.16.1(vega@5.26.0(encoding@0.1.13))
+        version: 5.16.1(vega@5.31.0(encoding@0.1.13))
       zod:
         specifier: ^3.22.4
         version: 3.23.3
@@ -3345,12 +3345,14 @@ packages:
   '@shopify/react-hooks@3.0.5':
     resolution: {integrity: sha512-FzTkzFELTkfU0ErcURY2eAPRwFP3MkyeAl09STIbvfNLkNcFIG9i3869KAdFrSwRsR7WZ3PdWkWFcLAuRJPvpg==}
     engines: {node: ^14.17.0 || >=16.0.0}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
     peerDependencies:
       react: '>=16.8.0 <19.0.0'
 
   '@shopify/react-web-worker@5.0.13':
     resolution: {integrity: sha512-HspNuLNDOPQhtPYes+i6MzFtiyAQicoBl8iYlpRefUwk1mW631LKbcyr/8RWsgZl6g80PByy9bn0OzD9CwN5PA==}
     engines: {node: ^14.17.0 || >=16.0.0}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
     peerDependencies:
       react: '>=16.8.0 <19.0.0'
       react-dom: '>=16.8.0 <19.0.0'
@@ -3358,10 +3360,12 @@ packages:
   '@shopify/useful-types@5.1.2':
     resolution: {integrity: sha512-EjwIljAYHT1pfIxdMFp6ytJvCUmKXa5NWsvG7zXFX5EnLs7wYp66M/QCuoyJjI0Lq+5ZVyrJXJqqeBiXQVVs0w==}
     engines: {node: ^14.17.0 || >=16.0.0}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
   '@shopify/web-worker@6.0.5':
     resolution: {integrity: sha512-vM5diGhV3lVx6SQyl6jhXQEap+CzCqbSTG/rmCmX4HLifmnRpSGRBC3z0HpsUA6FYlLkk8VYqHkm1yGRHEe9BA==}
     engines: {node: ^14.17.0 || >=16.0.0}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
     peerDependencies:
       '@babel/core': ^7.0.0
       webpack: ^5.38.0
@@ -4149,6 +4153,9 @@ packages:
   '@types/estree@1.0.6':
     resolution: {integrity: sha512-AYnb1nQyY49te+VRAVgmzfcgjYS91mY5P0TKUDCLEM+gNnA+3T6rWITXRLYCpahpqSQbN5cE+gHpnPyXjHWxcw==}
 
+  '@types/estree@1.0.7':
+    resolution: {integrity: sha512-w28IoSUCJpidD/TGviZwwMJckNESJZXFu7NBZ5YJ4mEUnNraUn9Pm8HSZm/jDF1pDWYKspWE7oVphigUPRakIQ==}
+
   '@types/express-handlebars@5.3.1':
     resolution: {integrity: sha512-DSzaERLO4gHb8AqnrL58jzSDyT0yDdl6HqDc+bGz1Hf0nrG1FK30nHGzv8NBEGR8QV9eUGB/YaE0Qj3NjF7siw==}
 
@@ -4753,6 +4760,7 @@ packages:
 
   antlr4ng-cli@1.0.7:
     resolution: {integrity: sha512-qN2FsDBmLvsQcA5CWTrPz8I8gNXeS1fgXBBhI78VyxBSBV/EJgqy8ks6IDTC9jyugpl40csCQ4sL5K4i2YZ/2w==}
+    deprecated: 'This package is deprecated and will no longer be updated. Please use the new antlr-ng package instead: https://github.com/mike-lischke/antlr-ng'
     hasBin: true
 
   antlr4ng@2.0.11:
@@ -5746,8 +5754,8 @@ packages:
     engines: {node: '>=12'}
     hasBin: true
 
-  d3-geo@3.1.0:
-    resolution: {integrity: sha512-JEo5HxXDdDYXCaWdwLRt79y7giK8SbhZJbFWXqbRTolCHFI5jRqteLzCsq51NKbUoX0PjBVSohxrx+NoOUujYA==}
+  d3-geo@3.1.1:
+    resolution: {integrity: sha512-637ln3gXKXOwhalDzinUgY83KzNWZRKbYubaG+fGVuc/dxO64RRljtCTnf5ecMyE1RIdtqpkVcq0IbtU2S8j2Q==}
     engines: {node: '>=12'}
 
   d3-hierarchy@3.1.2:
@@ -5764,6 +5772,10 @@ packages:
 
   d3-quadtree@3.0.1:
     resolution: {integrity: sha512-04xDrxQTDTCFwP5H6hRhsRcb9xxv2RzkcsygFzmkSIOJy3PeRJP7sNk3VRIbKXcog561P9oU0/rVH6vDROAgUw==}
+    engines: {node: '>=12'}
+
+  d3-scale-chromatic@3.1.0:
+    resolution: {integrity: sha512-A3s5PWiZ9YCXFye1o246KoscMWqf8BsD9eRiJ3He7C9OBaxKhAd5TFCdEx/7VbKtxxTsu//1mMJFrEt572cEyQ==}
     engines: {node: '>=12'}
 
   d3-scale@4.0.2:
@@ -5943,8 +5955,8 @@ packages:
     resolution: {integrity: sha512-TllpMR/t0M5sqCXfj85i4XaAzxmS5tVA16dqvdkMwGmzI+dXLXnw3J+3Vdv7VKw+ThlTMboK6i9rnZ6Nntj5CQ==}
     engines: {node: '>= 14'}
 
-  delaunator@5.0.0:
-    resolution: {integrity: sha512-AyLvtyJdbv/U1GkiS6gUUzclRoAY4Gs75qkMygJJhU75LW4DNuSF2RMzpxs9jw9Oz1BobHjTdkG3zdP55VxAqw==}
+  delaunator@5.0.1:
+    resolution: {integrity: sha512-8nvh+XBe96aCESrGOqMp/84b13H9cdKbG5P2ejQCh4d4sK9RL4371qou9drQjMhvnPmhWl5hnmqbEE0fXr9Xnw==}
 
   delay@5.0.0:
     resolution: {integrity: sha512-ReEBKkIfe4ya47wlPYf/gu5ib6yUG0/Aez0JQZQz94kiWtRQvZIQbTiehsnwHvLSWJnQdhVeqYue7Id1dKr0qw==}
@@ -8434,6 +8446,7 @@ packages:
 
   lodash.get@4.4.2:
     resolution: {integrity: sha512-z+Uw/vLuy6gQe8cfaFWD7p0wVv8fJl3mbzXh33RS+0oW2wvUqiRXiQ69gLWSLpgB5/6sU+r6BlQR0MBILadqTQ==}
+    deprecated: This package is deprecated. Use the optional chaining (?.) operator instead.
 
   lodash.includes@4.3.0:
     resolution: {integrity: sha512-W3Bx6mdkRTGtlJISOvVD/lbqjTlPPUDTMnlXZFnVwi9NKJ6tiAk6LVdlhZMm17VZisqhKcgzpO5Wz91PCt5b0w==}
@@ -8446,6 +8459,7 @@ packages:
 
   lodash.isequal@4.5.0:
     resolution: {integrity: sha512-pDo3lu8Jhfjqls6GkMgpahsF9kCyayhgykjyLMNFTKWrpVdAQtYyB4muAMWozBB4ig/dtWAmsMxLEI8wuz+DYQ==}
+    deprecated: This package is deprecated. Use require('node:util').isDeepStrictEqual instead.
 
   lodash.isinteger@4.0.4:
     resolution: {integrity: sha512-DBwtEWN2caHQ9/imiNeEA5ys1JoRtRfY3d7V9wkqtbycnAmTvRRmbHKDV4a0EYc678/dia0jrte4tjYwVBaZUA==}
@@ -10518,7 +10532,7 @@ packages:
 
   rudder-sdk-js@2.9.1:
     resolution: {integrity: sha512-SqOYuZNfV2UIv80guHF3YbA7J2ofOOp/SkpUYam09J8Lzfe/0dB1cZBoHWDQtuqEeAkjZwdzy+P3yEPo0jVd9A==}
-    deprecated: This package is deprecated. Please switch to the latest @rudderstack/analytics-js package for improved features and support. For more details visit, https://www.rudderstack.com/docs/sources/event-streams/sdks/rudderstack-javascript-sdk/.
+    deprecated: 'This package is deprecated and no longer maintained. While your events are still being tracked and delivered, we strongly recommend you to migrate to the latest package, @rudderstack/analytics-js (https://www.npmjs.com/package/@rudderstack/analytics-js), for the latest features, security updates, and improved performance. For more details, visit the migration guide: https://www.rudderstack.com/docs/sources/event-streams/sdks/rudderstack-javascript-sdk/migration-guide/.'
 
   run-async@2.4.1:
     resolution: {integrity: sha512-tvVnVv01b8c1RrA6Ep7JkStj85Guv/YrMcwqYQnwjsAS2cTmmPGBBjAjpCW7RrSodNSoE2/qg9O4bceNvUuDgQ==}
@@ -11644,11 +11658,11 @@ packages:
   vega-canvas@1.2.7:
     resolution: {integrity: sha512-OkJ9CACVcN9R5Pi9uF6MZBF06pO6qFpDYHWSKBJsdHP5o724KrsgR6UvbnXFH82FdsiTOff/HqjuaG8C7FL+9Q==}
 
-  vega-crossfilter@4.1.1:
-    resolution: {integrity: sha512-yesvlMcwRwxrtAd9IYjuxWJJuAMI0sl7JvAFfYtuDkkGDtqfLXUcCzHIATqW6igVIE7tWwGxnbfvQLhLNgK44Q==}
+  vega-crossfilter@4.1.3:
+    resolution: {integrity: sha512-nyPJAXAUABc3EocUXvAL1J/IWotZVsApIcvOeZaUdEQEtZ7bt8VtP2nj3CLbHBA8FZZVV+K6SmdwvCOaAD4wFQ==}
 
-  vega-dataflow@5.7.5:
-    resolution: {integrity: sha512-EdsIl6gouH67+8B0f22Owr2tKDiMPNNR8lEvJDcxmFw02nXd8juimclpLvjPQriqn6ta+3Dn5txqfD117H04YA==}
+  vega-dataflow@5.7.7:
+    resolution: {integrity: sha512-R2NX2HvgXL+u4E6u+L5lKvvRiCtnE6N6l+umgojfi53suhhkFP+zB+2UAQo4syxuZ4763H1csfkKc4xpqLzKnw==}
 
   vega-embed@6.23.0:
     resolution: {integrity: sha512-8Iava57LdROsatqsOhMLErHYaBpZBB7yZJlSVU3/xOK3l8Ft5WFnj5fm3OOAVML97/0yULE7LRVjXW5hV3fSpg==}
@@ -11658,8 +11672,8 @@ packages:
     bundledDependencies:
       - yallist
 
-  vega-encode@4.9.2:
-    resolution: {integrity: sha512-c3J0LYkgYeXQxwnYkEzL15cCFBYPRaYUon8O2SZ6O4PhH4dfFTXBzSyT8+gh8AhBd572l2yGDfxpEYA6pOqdjg==}
+  vega-encode@4.10.2:
+    resolution: {integrity: sha512-fsjEY1VaBAmqwt7Jlpz0dpPtfQFiBdP9igEefvumSpy7XUxOJmDQcRDnT3Qh9ctkv3itfPfI9g8FSnGcv2b4jQ==}
 
   vega-event-selector@3.0.1:
     resolution: {integrity: sha512-K5zd7s5tjr1LiOOkjGpcVls8GsH/f2CWCrWcpKy74gTCp+llCdwz0Enqo013ZlGaRNjfgD/o1caJRt3GSaec4A==}
@@ -11667,26 +11681,32 @@ packages:
   vega-expression@5.1.0:
     resolution: {integrity: sha512-u8Rzja/cn2PEUkhQN3zUj3REwNewTA92ExrcASNKUJPCciMkHJEjESwFYuI6DWMCq4hQElQ92iosOAtwzsSTqA==}
 
-  vega-force@4.2.0:
-    resolution: {integrity: sha512-aE2TlP264HXM1r3fl58AvZdKUWBNOGkIvn4EWyqeJdgO2vz46zSU7x7TzPG4ZLuo44cDRU5Ng3I1eQk23Asz6A==}
+  vega-expression@5.1.2:
+    resolution: {integrity: sha512-fFeDTh4UtOxlZWL54jf1ZqJHinyerWq/ROiqrQxqLkNJRJ86RmxYTgXwt65UoZ/l4VUv9eAd2qoJeDEf610Umw==}
 
-  vega-format@1.1.1:
-    resolution: {integrity: sha512-Rll7YgpYbsgaAa54AmtEWrxaJqgOh5fXlvM2wewO4trb9vwM53KBv4Q/uBWCLK3LLGeBXIF6gjDt2LFuJAUtkQ==}
+  vega-expression@5.2.0:
+    resolution: {integrity: sha512-WRMa4ny3iZIVAzDlBh3ipY2QUuLk2hnJJbfbncPgvTF7BUgbIbKq947z+JicWksYbokl8n1JHXJoqi3XvpG0Zw==}
 
-  vega-functions@5.14.0:
-    resolution: {integrity: sha512-Q0rocHmJDfQ0tS91kdN8WcEosq1e3HPK1Yf5z36SPYPmTzKw3uxUGE52tLxC832acAYqPmi8R41wAoI/yFQTPg==}
+  vega-force@4.2.2:
+    resolution: {integrity: sha512-cHZVaY2VNNIG2RyihhSiWniPd2W9R9kJq0znxzV602CgUVgxEfTKtx/lxnVCn8nNrdKAYrGiqIsBzIeKG1GWHw==}
 
-  vega-geo@4.4.1:
-    resolution: {integrity: sha512-s4WeZAL5M3ZUV27/eqSD3v0FyJz3PlP31XNSLFy4AJXHxHUeXT3qLiDHoVQnW5Om+uBCPDtTT1ROx1smGIf2aA==}
+  vega-format@1.1.3:
+    resolution: {integrity: sha512-wQhw7KR46wKJAip28FF/CicW+oiJaPAwMKdrxlnTA0Nv8Bf7bloRlc+O3kON4b4H1iALLr9KgRcYTOeXNs2MOA==}
 
-  vega-hierarchy@4.1.1:
-    resolution: {integrity: sha512-h5mbrDtPKHBBQ9TYbvEb/bCqmGTlUX97+4CENkyH21tJs7naza319B15KRK0NWOHuhbGhFmF8T0696tg+2c8XQ==}
+  vega-functions@5.16.0:
+    resolution: {integrity: sha512-uXjSDbbGcFLCQTZZI+OiZK0U+2dLWC26ONdO0g9RhPzXXzR3niPcFOA0bc/OeiHdTexqsLjOiXxR/K2BckB8gQ==}
+
+  vega-geo@4.4.3:
+    resolution: {integrity: sha512-+WnnzEPKIU1/xTFUK3EMu2htN35gp9usNZcC0ZFg2up1/Vqu6JyZsX0PIO51oXSIeXn9bwk6VgzlOmJUcx92tA==}
+
+  vega-hierarchy@4.1.3:
+    resolution: {integrity: sha512-0Z+TYKRgOEo8XYXnJc2HWg1EGpcbNAhJ9Wpi9ubIbEyEHqIgjCIyFVN8d4nSfsJOcWDzsSmRqohBztxAhOCSaw==}
 
   vega-interpreter@1.0.5:
     resolution: {integrity: sha512-po6oTOmeQqr1tzTCdD15tYxAQLeUnOVirAysgVEemzl+vfmvcEP7jQmlc51jz0jMA+WsbmE6oJywisQPu/H0Bg==}
 
-  vega-label@1.2.1:
-    resolution: {integrity: sha512-n/ackJ5lc0Xs9PInCaGumYn2awomPjJ87EMVT47xNgk2bHmJoZV1Ve/1PUM6Eh/KauY211wPMrNp/9Im+7Ripg==}
+  vega-label@1.3.1:
+    resolution: {integrity: sha512-Emx4b5s7pvuRj3fBkAJ/E2snCoZACfKAwxVId7f/4kYVlAYLb5Swq6W8KZHrH4M9Qds1XJRUYW9/Y3cceqzEFA==}
 
   vega-lite@5.16.1:
     resolution: {integrity: sha512-3iXmzdAVZCGHrvdh6hIM8OY55auXA1EIDzFLaYdq27e99Dr+WXTEa00ilqQUPdrpS0sE1ZqK4Ikhgg5x8SOtLw==}
@@ -11695,32 +11715,32 @@ packages:
     peerDependencies:
       vega: ^5.24.0
 
-  vega-loader@4.5.1:
-    resolution: {integrity: sha512-qy5x32SaT0YkEujQM2yKqvLGV9XWQ2aEDSugBFTdYzu/1u4bxdUSRDREOlrJ9Km3RWIOgFiCkobPmFxo47SKuA==}
+  vega-loader@4.5.3:
+    resolution: {integrity: sha512-dUfIpxTLF2magoMaur+jXGvwMxjtdlDZaIS8lFj6N7IhUST6nIvBzuUlRM+zLYepI5GHtCLOnqdKU4XV0NggCA==}
 
-  vega-parser@6.2.1:
-    resolution: {integrity: sha512-F79bQXt6fMkACR+TfFl7ueehKO26yCR/3iRZxhU7/pgHerx/d8K8pf2onMguu3NAN4eitT+PPuTgkDZtcqo9Qg==}
+  vega-parser@6.4.1:
+    resolution: {integrity: sha512-ZjF5aQfRe3yD5e2zYZcWWkUn9zGzUonMIirWTp3S3UBCujz+aT0+Ls6wbHdAH6hCPj3PVVkSWuuLkGEIUpWqyQ==}
 
-  vega-projection@1.6.0:
-    resolution: {integrity: sha512-LGUaO/kpOEYuTlul+x+lBzyuL9qmMwP1yShdUWYLW+zXoeyGbs5OZW+NbPPwLYqJr5lpXDr/vGztFuA/6g2xvQ==}
+  vega-projection@1.6.2:
+    resolution: {integrity: sha512-3pcVaQL9R3Zfk6PzopLX6awzrQUeYOXJzlfLGP2Xd93mqUepBa6m/reVrTUoSFXA3v9lfK4W/PS2AcVzD/MIcQ==}
 
-  vega-regression@1.2.0:
-    resolution: {integrity: sha512-6TZoPlhV/280VbxACjRKqlE0Nv48z5g4CSNf1FmGGTWS1rQtElPTranSoVW4d7ET5eVQ6f9QLxNAiALptvEq+g==}
+  vega-regression@1.3.1:
+    resolution: {integrity: sha512-AmccF++Z9uw4HNZC/gmkQGe6JsRxTG/R4QpbcSepyMvQN1Rj5KtVqMcmVFP1r3ivM4dYGFuPlzMWvuqp0iKMkQ==}
 
-  vega-runtime@6.1.4:
-    resolution: {integrity: sha512-0dDYXyFLQcxPQ2OQU0WuBVYLRZnm+/CwVu6i6N4idS7R9VXIX5581EkCh3pZ20pQ/+oaA7oJ0pR9rJgJ6rukRQ==}
+  vega-runtime@6.2.1:
+    resolution: {integrity: sha512-b4eot3tWKCk++INWqot+6sLn3wDTj/HE+tRSbiaf8aecuniPMlwJEK7wWuhVGeW2Ae5n8fI/8TeTViaC94bNHA==}
 
-  vega-scale@7.3.1:
-    resolution: {integrity: sha512-tyTlaaCpHN2Ik/PPKl/j9ThadBDjPtypqW1D7IsUSkzfoZ7RPlI2jwAaoj2C/YW5jFRbEOx3njmjogp48I5CvA==}
+  vega-scale@7.4.2:
+    resolution: {integrity: sha512-o6Hl76aU1jlCK7Q8DPYZ8OGsp4PtzLdzI6nGpLt8rxoE78QuB3GBGEwGAQJitp4IF7Lb2rL5oAXEl3ZP6xf9jg==}
 
-  vega-scenegraph@4.11.0:
-    resolution: {integrity: sha512-NQtxA53/w9whUwZScv+/vxSb68frgLwanpy207vaBew46hnFZI9GUWmLWemOww8pJwBnVmnF4jFhUBbKq13HVw==}
+  vega-scenegraph@4.13.1:
+    resolution: {integrity: sha512-LFY9+sLIxRfdDI9ZTKjLoijMkIAzPLBWHpPkwv4NPYgdyx+0qFmv+puBpAUGUY9VZqAZ736Uj5NJY9zw+/M3yQ==}
 
   vega-schema-url-parser@2.2.0:
     resolution: {integrity: sha512-yAtdBnfYOhECv9YC70H2gEiqfIbVkq09aaE4y/9V/ovEFmH9gPKaEgzIZqgT7PSPQjKhsNkb6jk6XvSoboxOBw==}
 
-  vega-selections@5.4.2:
-    resolution: {integrity: sha512-99FUhYmg0jOJr2/K4TcEURmJRkuibrCDc8KBUX7qcQEITzrZ5R6a4QE+sarCvbb3hi8aA9GV2oyST6MQeA9mgQ==}
+  vega-selections@5.6.0:
+    resolution: {integrity: sha512-UE2w78rUUbaV3Ph+vQbQDwh8eywIJYRxBiZdxEG/Tr/KtFMLdy2BDgNZuuDO1Nv8jImPJwONmqjNhNDYwM0VJQ==}
 
   vega-statistics@1.9.0:
     resolution: {integrity: sha512-GAqS7mkatpXcMCQKWtFu1eMUKLUymjInU0O8kXshWaQrVWjPIO2lllZ1VNhdgE0qGj4oOIRRS11kzuijLshGXQ==}
@@ -11731,35 +11751,38 @@ packages:
       vega: '*'
       vega-lite: '*'
 
-  vega-time@2.1.1:
-    resolution: {integrity: sha512-z1qbgyX0Af2kQSGFbApwBbX2meenGvsoX8Nga8uyWN8VIbiySo/xqizz1KrP6NbB6R+x5egKmkjdnyNThPeEWA==}
+  vega-time@2.1.3:
+    resolution: {integrity: sha512-hFcWPdTV844IiY0m97+WUoMLADCp+8yUQR1NStWhzBzwDDA7QEGGwYGxALhdMOaDTwkyoNj3V/nox2rQAJD/vQ==}
 
   vega-tooltip@0.33.0:
     resolution: {integrity: sha512-jMcvH2lP20UfyvO2KAEdloiwRyasikaiLuNFhzwrrzf2RamGTxP4G7B2OZ2QENfrGUH05Z9ei5tn/eErdzOaZQ==}
 
-  vega-transforms@4.11.0:
-    resolution: {integrity: sha512-BeDASz7s9pIFjcSBljJJb8Eg0to2VjU0DvS/UjCQQYtqlfmzz78/mZnHyC+mW06h58ZKN+1QrIfqTZ6uMB4ySw==}
+  vega-transforms@4.12.1:
+    resolution: {integrity: sha512-Qxo+xeEEftY1jYyKgzOGc9NuW4/MqGm1YPZ5WrL9eXg2G0410Ne+xL/MFIjHF4hRX+3mgFF4Io2hPpfy/thjLg==}
 
-  vega-typings@1.0.0:
-    resolution: {integrity: sha512-ML8MVdNQurPvOQ6mskp+Zxf7Yy4M5G73QI04aIi51hACqa032qOxgzApZUPEoqBDBczm4zPPF0X9SQgaxJXq4A==}
+  vega-typings@1.4.0:
+    resolution: {integrity: sha512-UTXjuasq0Q8uMuzz/qow4moVHFJ5atYdQu871QZJ/zgWY3Po4du3dIGBVQN4fYEv6seKhDvxpEFke2rqx81Wqw==}
 
   vega-util@1.17.2:
     resolution: {integrity: sha512-omNmGiZBdjm/jnHjZlywyYqafscDdHaELHx1q96n5UOz/FlO9JO99P4B3jZg391EFG8dqhWjQilSf2JH6F1mIw==}
 
-  vega-view-transforms@4.5.9:
-    resolution: {integrity: sha512-NxEq4ZD4QwWGRrl2yDLnBRXM9FgCI+vvYb3ZC2+nVDtkUxOlEIKZsMMw31op5GZpfClWLbjCT3mVvzO2xaTF+g==}
+  vega-util@1.17.3:
+    resolution: {integrity: sha512-nSNpZLUrRvFo46M5OK4O6x6f08WD1yOcEzHNlqivF+sDLSsVpstaF6fdJYwrbf/debFi2L9Tkp4gZQtssup9iQ==}
 
-  vega-view@5.11.1:
-    resolution: {integrity: sha512-RoWxuoEMI7xVQJhPqNeLEHCezudsf3QkVMhH5tCovBqwBADQGqq9iWyax3ZzdyX1+P3eBgm7cnLvpqtN2hU8kA==}
+  vega-view-transforms@4.6.1:
+    resolution: {integrity: sha512-RYlyMJu5kZV4XXjmyTQKADJWDB25SMHsiF+B1rbE1p+pmdQPlp5tGdPl9r5dUJOp3p8mSt/NGI8GPGucmPMxtw==}
 
-  vega-voronoi@4.2.2:
-    resolution: {integrity: sha512-Bq2YOp2MGphhQnUuLwl3dsyBs6MuEU86muTjDbBJg33+HkZtE1kIoQZr+EUHa46NBsY1NzSKddOTu8wcaFrWiQ==}
+  vega-view@5.14.0:
+    resolution: {integrity: sha512-gg2ukCviKG6Nofmr0Y6hFbr9romRMzmXHe3ljNJ5QyRnkwmQ7HbTvXOyS9cZZ0VtuhSRw+uiyd0Pg+nep0IhwA==}
 
-  vega-wordcloud@4.1.4:
-    resolution: {integrity: sha512-oeZLlnjiusLAU5vhk0IIdT5QEiJE0x6cYoGNq1th+EbwgQp153t4r026fcib9oq15glHFOzf81a8hHXHSJm1Jw==}
+  vega-voronoi@4.2.4:
+    resolution: {integrity: sha512-lWNimgJAXGeRFu2Pz8axOUqVf1moYhD+5yhBzDSmckE9I5jLOyZc/XvgFTXwFnsVkMd1QW1vxJa+y9yfUblzYw==}
 
-  vega@5.26.0:
-    resolution: {integrity: sha512-Gvg4SMv6dHdY7aEbbsr6rbUfsI3hVVrEhGKmb5vV8SEqtJqGoeIKT/QZ9Yjw5uQOaGJJqkPcox3WW0n+qGGP/Q==}
+  vega-wordcloud@4.1.6:
+    resolution: {integrity: sha512-lFmF3u9/ozU0P+WqPjeThQfZm0PigdbXDwpIUCxczrCXKYJLYFmZuZLZR7cxtmpZ0/yuvRvAJ4g123LXbSZF8A==}
+
+  vega@5.31.0:
+    resolution: {integrity: sha512-ZZ+8kcKqCeRi7pBdS7kfBpfhV2gDpa6N950GKGWFw0QL4fH319A9o8FAJzdY8zK0WW0PKrivZSoRmK9fWUxnhg==}
 
   verror@1.10.0:
     resolution: {integrity: sha512-ZZKSmDAEFOijERBLkmYfJ+vmk3w+7hOLYDNkRCuRuMJGEmqYNCNLyBBFwWKVMhfwaEF3WOd0Zlw86U/WC/+nYw==}
@@ -12856,7 +12879,7 @@ snapshots:
       '@babel/traverse': 7.25.6
       '@babel/types': 7.25.6
       convert-source-map: 2.0.0
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.3.7(supports-color@9.1.0)
       gensync: 1.0.0-beta.2
       json5: 2.2.3
       semver: 6.3.1
@@ -12876,7 +12899,7 @@ snapshots:
       '@babel/traverse': 7.26.4
       '@babel/types': 7.26.3
       convert-source-map: 2.0.0
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.3.7(supports-color@9.1.0)
       gensync: 1.0.0-beta.2
       json5: 2.2.3
       semver: 6.3.1
@@ -13119,7 +13142,7 @@ snapshots:
       '@babel/parser': 7.25.6
       '@babel/template': 7.25.0
       '@babel/types': 7.25.6
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.3.7(supports-color@9.1.0)
       globals: 11.12.0
     transitivePeerDependencies:
       - supports-color
@@ -13143,7 +13166,7 @@ snapshots:
       '@babel/parser': 7.26.3
       '@babel/template': 7.25.9
       '@babel/types': 7.26.3
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.3.7(supports-color@9.1.0)
       globals: 11.12.0
     transitivePeerDependencies:
       - supports-color
@@ -13649,7 +13672,7 @@ snapshots:
   '@eslint/eslintrc@2.1.4':
     dependencies:
       ajv: 6.12.6
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.3.7(supports-color@9.1.0)
       espree: 9.6.1
       globals: 13.24.0
       ignore: 5.2.0
@@ -13976,7 +13999,7 @@ snapshots:
   '@humanwhocodes/config-array@0.13.0':
     dependencies:
       '@humanwhocodes/object-schema': 2.0.3
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.3.7(supports-color@9.1.0)
       minimatch: 3.1.2
     transitivePeerDependencies:
       - supports-color
@@ -14231,7 +14254,7 @@ snapshots:
 
   '@kwsites/file-exists@1.1.1':
     dependencies:
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.3.7(supports-color@9.1.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -16242,11 +16265,13 @@ snapshots:
 
   '@types/estree-jsx@1.0.5':
     dependencies:
-      '@types/estree': 1.0.6
+      '@types/estree': 1.0.7
 
   '@types/estree@1.0.5': {}
 
   '@types/estree@1.0.6': {}
+
+  '@types/estree@1.0.7': {}
 
   '@types/express-handlebars@5.3.1': {}
 
@@ -16638,7 +16663,7 @@ snapshots:
       '@typescript-eslint/scope-manager': 5.62.0
       '@typescript-eslint/type-utils': 5.62.0(eslint@8.57.1)(typescript@4.9.5)
       '@typescript-eslint/utils': 5.62.0(eslint@8.57.1)(typescript@4.9.5)
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.3.7(supports-color@9.1.0)
       eslint: 8.57.1
       graphemer: 1.4.0
       ignore: 5.2.0
@@ -16655,7 +16680,7 @@ snapshots:
       '@typescript-eslint/scope-manager': 5.62.0
       '@typescript-eslint/types': 5.62.0
       '@typescript-eslint/typescript-estree': 5.62.0(typescript@4.9.5)
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.3.7(supports-color@9.1.0)
       eslint: 8.57.1
     optionalDependencies:
       typescript: 4.9.5
@@ -16671,7 +16696,7 @@ snapshots:
     dependencies:
       '@typescript-eslint/typescript-estree': 5.62.0(typescript@4.9.5)
       '@typescript-eslint/utils': 5.62.0(eslint@8.57.1)(typescript@4.9.5)
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.3.7(supports-color@9.1.0)
       eslint: 8.57.1
       tsutils: 3.21.0(typescript@4.9.5)
     optionalDependencies:
@@ -16687,7 +16712,7 @@ snapshots:
     dependencies:
       '@typescript-eslint/types': 5.62.0
       '@typescript-eslint/visitor-keys': 5.62.0
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.3.7(supports-color@9.1.0)
       globby: 11.1.0
       is-glob: 4.0.3
       semver: 7.6.3
@@ -16701,7 +16726,7 @@ snapshots:
     dependencies:
       '@typescript-eslint/types': 5.62.0
       '@typescript-eslint/visitor-keys': 5.62.0
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.3.7(supports-color@9.1.0)
       globby: 11.1.0
       is-glob: 4.0.3
       semver: 7.6.3
@@ -16715,7 +16740,7 @@ snapshots:
     dependencies:
       '@typescript-eslint/types': 7.18.0
       '@typescript-eslint/visitor-keys': 7.18.0
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.3.7(supports-color@9.1.0)
       globby: 11.1.0
       is-glob: 4.0.3
       minimatch: 9.0.5
@@ -16959,13 +16984,13 @@ snapshots:
 
   agent-base@6.0.2:
     dependencies:
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.3.7(supports-color@9.1.0)
     transitivePeerDependencies:
       - supports-color
 
   agent-base@7.1.0:
     dependencies:
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.3.7(supports-color@9.1.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -18085,7 +18110,7 @@ snapshots:
       '@actions/core': 1.11.1
       arg: 5.0.2
       console.table: 0.10.0
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.3.7(supports-color@9.1.0)
       fast-shuffle: 6.1.0
       find-cypress-specs: 1.43.4(@babel/core@7.26.0)
       globby: 11.1.0
@@ -18147,7 +18172,7 @@ snapshots:
 
   d3-delaunay@6.0.4:
     dependencies:
-      delaunator: 5.0.0
+      delaunator: 5.0.1
 
   d3-dispatch@3.0.1: {}
 
@@ -18176,9 +18201,9 @@ snapshots:
     dependencies:
       commander: 7.2.0
       d3-array: 3.2.4
-      d3-geo: 3.1.0
+      d3-geo: 3.1.1
 
-  d3-geo@3.1.0:
+  d3-geo@3.1.1:
     dependencies:
       d3-array: 3.2.4
 
@@ -18191,6 +18216,11 @@ snapshots:
   d3-path@3.1.0: {}
 
   d3-quadtree@3.0.1: {}
+
+  d3-scale-chromatic@3.1.0:
+    dependencies:
+      d3-color: 3.1.0
+      d3-interpolate: 3.0.1
 
   d3-scale@4.0.2:
     dependencies:
@@ -18244,7 +18274,7 @@ snapshots:
       chalk: 2.4.2
       commander: 2.20.3
       core-js: 3.38.0
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.3.7(supports-color@9.1.0)
       fast-json-patch: 3.1.1
       get-stdin: 6.0.0
       http-proxy-agent: 5.0.0
@@ -18421,7 +18451,7 @@ snapshots:
       escodegen: 2.1.0
       esprima: 4.0.1
 
-  delaunator@5.0.0:
+  delaunator@5.0.1:
     dependencies:
       robust-predicates: 3.0.2
 
@@ -19168,7 +19198,7 @@ snapshots:
       ajv: 6.12.6
       chalk: 4.1.2
       cross-spawn: 7.0.5
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.3.7(supports-color@9.1.0)
       doctrine: 3.0.0
       escape-string-regexp: 4.0.0
       eslint-scope: 7.2.2
@@ -19226,7 +19256,7 @@ snapshots:
 
   estree-walker@3.0.3:
     dependencies:
-      '@types/estree': 1.0.6
+      '@types/estree': 1.0.7
 
   esutils@2.0.3: {}
 
@@ -19506,7 +19536,7 @@ snapshots:
       '@actions/core': 1.11.1
       arg: 5.0.2
       console.table: 0.10.0
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.3.7(supports-color@9.1.0)
       find-test-names: 1.28.18(@babel/core@7.26.0)
       globby: 11.1.0
       minimatch: 3.1.2
@@ -19530,7 +19560,7 @@ snapshots:
       '@babel/parser': 7.25.6
       '@babel/plugin-syntax-jsx': 7.23.3(@babel/core@7.26.0)
       acorn-walk: 8.2.0
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.3.7(supports-color@9.1.0)
       globby: 11.1.0
       simple-bin-help: 1.8.0
     transitivePeerDependencies:
@@ -19809,7 +19839,7 @@ snapshots:
     dependencies:
       basic-ftp: 5.0.4
       data-uri-to-buffer: 6.0.2
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.3.7(supports-color@9.1.0)
       fs-extra: 11.2.0
     transitivePeerDependencies:
       - supports-color
@@ -20153,7 +20183,7 @@ snapshots:
 
   hast-util-to-jsx-runtime@2.3.2:
     dependencies:
-      '@types/estree': 1.0.6
+      '@types/estree': 1.0.7
       '@types/hast': 3.0.4
       '@types/unist': 3.0.3
       comma-separated-tokens: 2.0.2
@@ -20253,14 +20283,14 @@ snapshots:
     dependencies:
       '@tootallnate/once': 2.0.0
       agent-base: 6.0.2
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.3.7(supports-color@9.1.0)
     transitivePeerDependencies:
       - supports-color
 
   http-proxy-agent@7.0.2:
     dependencies:
       agent-base: 7.1.0
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.3.7(supports-color@9.1.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -20278,14 +20308,14 @@ snapshots:
   https-proxy-agent@5.0.1:
     dependencies:
       agent-base: 6.0.2
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.3.7(supports-color@9.1.0)
     transitivePeerDependencies:
       - supports-color
 
   https-proxy-agent@7.0.4:
     dependencies:
       agent-base: 7.1.0
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.3.7(supports-color@9.1.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -20420,7 +20450,7 @@ snapshots:
     dependencies:
       '@ioredis/commands': 1.2.0
       cluster-key-slot: 1.1.0
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.3.7(supports-color@9.1.0)
       denque: 2.1.0
       lodash.defaults: 4.2.0
       lodash.isarguments: 3.1.0
@@ -20769,7 +20799,7 @@ snapshots:
 
   istanbul-lib-source-maps@4.0.0:
     dependencies:
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.3.7(supports-color@9.1.0)
       istanbul-lib-coverage: 3.2.0
       source-map: 0.6.1
     transitivePeerDependencies:
@@ -22206,7 +22236,7 @@ snapshots:
 
   micromark@2.11.4:
     dependencies:
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.3.7(supports-color@9.1.0)
       parse-entities: 2.0.0
     transitivePeerDependencies:
       - supports-color
@@ -22214,7 +22244,7 @@ snapshots:
   micromark@4.0.1:
     dependencies:
       '@types/debug': 4.1.7
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.3.7(supports-color@9.1.0)
       decode-named-character-reference: 1.0.2
       devlop: 1.1.0
       micromark-core-commonmark: 2.0.2
@@ -22439,7 +22469,7 @@ snapshots:
 
   nock@13.5.1:
     dependencies:
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.3.7(supports-color@9.1.0)
       json-stringify-safe: 5.0.1
       propagate: 2.0.1
     transitivePeerDependencies:
@@ -22847,7 +22877,7 @@ snapshots:
     dependencies:
       '@tootallnate/quickjs-emscripten': 0.23.0
       agent-base: 7.1.0
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.3.7(supports-color@9.1.0)
       get-uri: 6.0.3
       http-proxy-agent: 7.0.2
       https-proxy-agent: 7.0.4
@@ -23373,7 +23403,7 @@ snapshots:
   proxy-agent@6.4.0:
     dependencies:
       agent-base: 7.1.0
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.3.7(supports-color@9.1.0)
       http-proxy-agent: 7.0.2
       https-proxy-agent: 7.0.4
       lru-cache: 7.18.3
@@ -23707,15 +23737,15 @@ snapshots:
       ts-easing: 0.2.0
       tslib: 2.6.2
 
-  react-vega@7.6.0(react@19.0.0)(vega-lite@5.16.1(vega@5.26.0(encoding@0.1.13)))(vega@5.26.0(encoding@0.1.13)):
+  react-vega@7.6.0(react@19.0.0)(vega-lite@5.16.1(vega@5.31.0(encoding@0.1.13)))(vega@5.31.0(encoding@0.1.13)):
     dependencies:
       '@types/react': 19.0.2
       fast-deep-equal: 3.1.3
       prop-types: 15.8.1
       react: 19.0.0
-      vega: 5.26.0(encoding@0.1.13)
-      vega-embed: 6.23.0(vega-lite@5.16.1(vega@5.26.0(encoding@0.1.13)))(vega@5.26.0(encoding@0.1.13))
-      vega-lite: 5.16.1(vega@5.26.0(encoding@0.1.13))
+      vega: 5.31.0(encoding@0.1.13)
+      vega-embed: 6.23.0(vega-lite@5.16.1(vega@5.31.0(encoding@0.1.13)))(vega@5.31.0(encoding@0.1.13))
+      vega-lite: 5.16.1(vega@5.31.0(encoding@0.1.13))
 
   react@19.0.0: {}
 
@@ -24006,7 +24036,7 @@ snapshots:
 
   require-in-the-middle@7.3.0:
     dependencies:
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.3.7(supports-color@9.1.0)
       module-details-from-path: 1.0.3
       resolve: 1.22.8
     transitivePeerDependencies:
@@ -24349,7 +24379,7 @@ snapshots:
     dependencies:
       '@kwsites/file-exists': 1.1.1
       '@kwsites/promise-deferred': 1.1.1
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.3.7(supports-color@9.1.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -24447,7 +24477,7 @@ snapshots:
   socks-proxy-agent@7.0.0:
     dependencies:
       agent-base: 6.0.2
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.3.7(supports-color@9.1.0)
       socks: 2.7.3
     transitivePeerDependencies:
       - supports-color
@@ -24455,7 +24485,7 @@ snapshots:
   socks-proxy-agent@8.0.2:
     dependencies:
       agent-base: 7.1.0
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.3.7(supports-color@9.1.0)
       socks: 2.7.3
     transitivePeerDependencies:
       - supports-color
@@ -24483,7 +24513,7 @@ snapshots:
   spec-change@1.11.11:
     dependencies:
       arg: 5.0.2
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.3.7(supports-color@9.1.0)
       deep-equal: 2.2.3
       dependency-tree: 11.0.1
       lazy-ass: 2.0.3
@@ -25397,42 +25427,42 @@ snapshots:
 
   vega-canvas@1.2.7: {}
 
-  vega-crossfilter@4.1.1(encoding@0.1.13):
+  vega-crossfilter@4.1.3(encoding@0.1.13):
     dependencies:
       d3-array: 3.2.4
-      vega-dataflow: 5.7.5(encoding@0.1.13)
-      vega-util: 1.17.2
+      vega-dataflow: 5.7.7(encoding@0.1.13)
+      vega-util: 1.17.3
     transitivePeerDependencies:
       - encoding
 
-  vega-dataflow@5.7.5(encoding@0.1.13):
+  vega-dataflow@5.7.7(encoding@0.1.13):
     dependencies:
-      vega-format: 1.1.1
-      vega-loader: 4.5.1(encoding@0.1.13)
-      vega-util: 1.17.2
+      vega-format: 1.1.3
+      vega-loader: 4.5.3(encoding@0.1.13)
+      vega-util: 1.17.3
     transitivePeerDependencies:
       - encoding
 
-  vega-embed@6.23.0(vega-lite@5.16.1(vega@5.26.0(encoding@0.1.13)))(vega@5.26.0(encoding@0.1.13)):
+  vega-embed@6.23.0(vega-lite@5.16.1(vega@5.31.0(encoding@0.1.13)))(vega@5.31.0(encoding@0.1.13)):
     dependencies:
       fast-json-patch: 3.1.1
       json-stringify-pretty-compact: 3.0.0
       semver: 7.6.3
       tslib: 2.6.2
-      vega: 5.26.0(encoding@0.1.13)
+      vega: 5.31.0(encoding@0.1.13)
       vega-interpreter: 1.0.5
-      vega-lite: 5.16.1(vega@5.26.0(encoding@0.1.13))
+      vega-lite: 5.16.1(vega@5.31.0(encoding@0.1.13))
       vega-schema-url-parser: 2.2.0
-      vega-themes: 2.14.0(vega-lite@5.16.1(vega@5.26.0(encoding@0.1.13)))(vega@5.26.0(encoding@0.1.13))
+      vega-themes: 2.14.0(vega-lite@5.16.1(vega@5.31.0(encoding@0.1.13)))(vega@5.31.0(encoding@0.1.13))
       vega-tooltip: 0.33.0
 
-  vega-encode@4.9.2(encoding@0.1.13):
+  vega-encode@4.10.2(encoding@0.1.13):
     dependencies:
       d3-array: 3.2.4
       d3-interpolate: 3.0.1
-      vega-dataflow: 5.7.5(encoding@0.1.13)
-      vega-scale: 7.3.1
-      vega-util: 1.17.2
+      vega-dataflow: 5.7.7(encoding@0.1.13)
+      vega-scale: 7.4.2
+      vega-util: 1.17.3
     transitivePeerDependencies:
       - encoding
 
@@ -25443,255 +25473,268 @@ snapshots:
       '@types/estree': 1.0.5
       vega-util: 1.17.2
 
-  vega-force@4.2.0(encoding@0.1.13):
+  vega-expression@5.1.2:
+    dependencies:
+      '@types/estree': 1.0.7
+      vega-util: 1.17.3
+
+  vega-expression@5.2.0:
+    dependencies:
+      '@types/estree': 1.0.7
+      vega-util: 1.17.3
+
+  vega-force@4.2.2(encoding@0.1.13):
     dependencies:
       d3-force: 3.0.0
-      vega-dataflow: 5.7.5(encoding@0.1.13)
-      vega-util: 1.17.2
+      vega-dataflow: 5.7.7(encoding@0.1.13)
+      vega-util: 1.17.3
     transitivePeerDependencies:
       - encoding
 
-  vega-format@1.1.1:
+  vega-format@1.1.3:
     dependencies:
       d3-array: 3.2.4
       d3-format: 3.1.0
       d3-time-format: 4.1.0
-      vega-time: 2.1.1
-      vega-util: 1.17.2
+      vega-time: 2.1.3
+      vega-util: 1.17.3
 
-  vega-functions@5.14.0(encoding@0.1.13):
+  vega-functions@5.16.0(encoding@0.1.13):
     dependencies:
       d3-array: 3.2.4
       d3-color: 3.1.0
-      d3-geo: 3.1.0
-      vega-dataflow: 5.7.5(encoding@0.1.13)
-      vega-expression: 5.1.0
-      vega-scale: 7.3.1
-      vega-scenegraph: 4.11.0(encoding@0.1.13)
-      vega-selections: 5.4.2
+      d3-geo: 3.1.1
+      vega-dataflow: 5.7.7(encoding@0.1.13)
+      vega-expression: 5.2.0
+      vega-scale: 7.4.2
+      vega-scenegraph: 4.13.1(encoding@0.1.13)
+      vega-selections: 5.6.0
       vega-statistics: 1.9.0
-      vega-time: 2.1.1
-      vega-util: 1.17.2
+      vega-time: 2.1.3
+      vega-util: 1.17.3
     transitivePeerDependencies:
       - encoding
 
-  vega-geo@4.4.1(encoding@0.1.13):
+  vega-geo@4.4.3(encoding@0.1.13):
     dependencies:
       d3-array: 3.2.4
       d3-color: 3.1.0
-      d3-geo: 3.1.0
+      d3-geo: 3.1.1
       vega-canvas: 1.2.7
-      vega-dataflow: 5.7.5(encoding@0.1.13)
-      vega-projection: 1.6.0
+      vega-dataflow: 5.7.7(encoding@0.1.13)
+      vega-projection: 1.6.2
       vega-statistics: 1.9.0
-      vega-util: 1.17.2
+      vega-util: 1.17.3
     transitivePeerDependencies:
       - encoding
 
-  vega-hierarchy@4.1.1(encoding@0.1.13):
+  vega-hierarchy@4.1.3(encoding@0.1.13):
     dependencies:
       d3-hierarchy: 3.1.2
-      vega-dataflow: 5.7.5(encoding@0.1.13)
-      vega-util: 1.17.2
+      vega-dataflow: 5.7.7(encoding@0.1.13)
+      vega-util: 1.17.3
     transitivePeerDependencies:
       - encoding
 
   vega-interpreter@1.0.5: {}
 
-  vega-label@1.2.1(encoding@0.1.13):
+  vega-label@1.3.1(encoding@0.1.13):
     dependencies:
       vega-canvas: 1.2.7
-      vega-dataflow: 5.7.5(encoding@0.1.13)
-      vega-scenegraph: 4.11.0(encoding@0.1.13)
-      vega-util: 1.17.2
+      vega-dataflow: 5.7.7(encoding@0.1.13)
+      vega-scenegraph: 4.13.1(encoding@0.1.13)
+      vega-util: 1.17.3
     transitivePeerDependencies:
       - encoding
 
-  vega-lite@5.16.1(vega@5.26.0(encoding@0.1.13)):
+  vega-lite@5.16.1(vega@5.31.0(encoding@0.1.13)):
     dependencies:
       json-stringify-pretty-compact: 3.0.0
       tslib: 2.6.2
-      vega: 5.26.0(encoding@0.1.13)
+      vega: 5.31.0(encoding@0.1.13)
       vega-event-selector: 3.0.1
       vega-expression: 5.1.0
       vega-util: 1.17.2
       yargs: 17.7.2
 
-  vega-loader@4.5.1(encoding@0.1.13):
+  vega-loader@4.5.3(encoding@0.1.13):
     dependencies:
       d3-dsv: 3.0.1
       node-fetch: 2.7.0(encoding@0.1.13)
       topojson-client: 3.1.0
-      vega-format: 1.1.1
-      vega-util: 1.17.2
+      vega-format: 1.1.3
+      vega-util: 1.17.3
     transitivePeerDependencies:
       - encoding
 
-  vega-parser@6.2.1(encoding@0.1.13):
+  vega-parser@6.4.1(encoding@0.1.13):
     dependencies:
-      vega-dataflow: 5.7.5(encoding@0.1.13)
+      vega-dataflow: 5.7.7(encoding@0.1.13)
       vega-event-selector: 3.0.1
-      vega-functions: 5.14.0(encoding@0.1.13)
-      vega-scale: 7.3.1
-      vega-util: 1.17.2
+      vega-functions: 5.16.0(encoding@0.1.13)
+      vega-scale: 7.4.2
+      vega-util: 1.17.3
     transitivePeerDependencies:
       - encoding
 
-  vega-projection@1.6.0:
+  vega-projection@1.6.2:
     dependencies:
-      d3-geo: 3.1.0
+      d3-geo: 3.1.1
       d3-geo-projection: 4.0.0
-      vega-scale: 7.3.1
+      vega-scale: 7.4.2
 
-  vega-regression@1.2.0(encoding@0.1.13):
+  vega-regression@1.3.1(encoding@0.1.13):
     dependencies:
       d3-array: 3.2.4
-      vega-dataflow: 5.7.5(encoding@0.1.13)
+      vega-dataflow: 5.7.7(encoding@0.1.13)
       vega-statistics: 1.9.0
-      vega-util: 1.17.2
+      vega-util: 1.17.3
     transitivePeerDependencies:
       - encoding
 
-  vega-runtime@6.1.4(encoding@0.1.13):
+  vega-runtime@6.2.1(encoding@0.1.13):
     dependencies:
-      vega-dataflow: 5.7.5(encoding@0.1.13)
-      vega-util: 1.17.2
+      vega-dataflow: 5.7.7(encoding@0.1.13)
+      vega-util: 1.17.3
     transitivePeerDependencies:
       - encoding
 
-  vega-scale@7.3.1:
+  vega-scale@7.4.2:
     dependencies:
       d3-array: 3.2.4
       d3-interpolate: 3.0.1
       d3-scale: 4.0.2
-      vega-time: 2.1.1
-      vega-util: 1.17.2
+      d3-scale-chromatic: 3.1.0
+      vega-time: 2.1.3
+      vega-util: 1.17.3
 
-  vega-scenegraph@4.11.0(encoding@0.1.13):
+  vega-scenegraph@4.13.1(encoding@0.1.13):
     dependencies:
       d3-path: 3.1.0
       d3-shape: 3.2.0
       vega-canvas: 1.2.7
-      vega-loader: 4.5.1(encoding@0.1.13)
-      vega-scale: 7.3.1
-      vega-util: 1.17.2
+      vega-loader: 4.5.3(encoding@0.1.13)
+      vega-scale: 7.4.2
+      vega-util: 1.17.3
     transitivePeerDependencies:
       - encoding
 
   vega-schema-url-parser@2.2.0: {}
 
-  vega-selections@5.4.2:
+  vega-selections@5.6.0:
     dependencies:
       d3-array: 3.2.4
-      vega-expression: 5.1.0
-      vega-util: 1.17.2
+      vega-expression: 5.2.0
+      vega-util: 1.17.3
 
   vega-statistics@1.9.0:
     dependencies:
       d3-array: 3.2.4
 
-  vega-themes@2.14.0(vega-lite@5.16.1(vega@5.26.0(encoding@0.1.13)))(vega@5.26.0(encoding@0.1.13)):
+  vega-themes@2.14.0(vega-lite@5.16.1(vega@5.31.0(encoding@0.1.13)))(vega@5.31.0(encoding@0.1.13)):
     dependencies:
-      vega: 5.26.0(encoding@0.1.13)
-      vega-lite: 5.16.1(vega@5.26.0(encoding@0.1.13))
+      vega: 5.31.0(encoding@0.1.13)
+      vega-lite: 5.16.1(vega@5.31.0(encoding@0.1.13))
 
-  vega-time@2.1.1:
+  vega-time@2.1.3:
     dependencies:
       d3-array: 3.2.4
       d3-time: 3.1.0
-      vega-util: 1.17.2
+      vega-util: 1.17.3
 
   vega-tooltip@0.33.0:
     dependencies:
-      vega-util: 1.17.2
+      vega-util: 1.17.3
 
-  vega-transforms@4.11.0(encoding@0.1.13):
+  vega-transforms@4.12.1(encoding@0.1.13):
     dependencies:
       d3-array: 3.2.4
-      vega-dataflow: 5.7.5(encoding@0.1.13)
+      vega-dataflow: 5.7.7(encoding@0.1.13)
       vega-statistics: 1.9.0
-      vega-time: 2.1.1
-      vega-util: 1.17.2
+      vega-time: 2.1.3
+      vega-util: 1.17.3
     transitivePeerDependencies:
       - encoding
 
-  vega-typings@1.0.0:
+  vega-typings@1.4.0:
     dependencies:
       '@types/geojson': 7946.0.4
       vega-event-selector: 3.0.1
-      vega-expression: 5.1.0
-      vega-util: 1.17.2
+      vega-expression: 5.2.0
+      vega-util: 1.17.3
 
   vega-util@1.17.2: {}
 
-  vega-view-transforms@4.5.9(encoding@0.1.13):
+  vega-util@1.17.3: {}
+
+  vega-view-transforms@4.6.1(encoding@0.1.13):
     dependencies:
-      vega-dataflow: 5.7.5(encoding@0.1.13)
-      vega-scenegraph: 4.11.0(encoding@0.1.13)
-      vega-util: 1.17.2
+      vega-dataflow: 5.7.7(encoding@0.1.13)
+      vega-scenegraph: 4.13.1(encoding@0.1.13)
+      vega-util: 1.17.3
     transitivePeerDependencies:
       - encoding
 
-  vega-view@5.11.1(encoding@0.1.13):
+  vega-view@5.14.0(encoding@0.1.13):
     dependencies:
       d3-array: 3.2.4
       d3-timer: 3.0.1
-      vega-dataflow: 5.7.5(encoding@0.1.13)
-      vega-format: 1.1.1
-      vega-functions: 5.14.0(encoding@0.1.13)
-      vega-runtime: 6.1.4(encoding@0.1.13)
-      vega-scenegraph: 4.11.0(encoding@0.1.13)
-      vega-util: 1.17.2
+      vega-dataflow: 5.7.7(encoding@0.1.13)
+      vega-format: 1.1.3
+      vega-functions: 5.16.0(encoding@0.1.13)
+      vega-runtime: 6.2.1(encoding@0.1.13)
+      vega-scenegraph: 4.13.1(encoding@0.1.13)
+      vega-util: 1.17.3
     transitivePeerDependencies:
       - encoding
 
-  vega-voronoi@4.2.2(encoding@0.1.13):
+  vega-voronoi@4.2.4(encoding@0.1.13):
     dependencies:
       d3-delaunay: 6.0.4
-      vega-dataflow: 5.7.5(encoding@0.1.13)
-      vega-util: 1.17.2
+      vega-dataflow: 5.7.7(encoding@0.1.13)
+      vega-util: 1.17.3
     transitivePeerDependencies:
       - encoding
 
-  vega-wordcloud@4.1.4(encoding@0.1.13):
+  vega-wordcloud@4.1.6(encoding@0.1.13):
     dependencies:
       vega-canvas: 1.2.7
-      vega-dataflow: 5.7.5(encoding@0.1.13)
-      vega-scale: 7.3.1
+      vega-dataflow: 5.7.7(encoding@0.1.13)
+      vega-scale: 7.4.2
       vega-statistics: 1.9.0
-      vega-util: 1.17.2
+      vega-util: 1.17.3
     transitivePeerDependencies:
       - encoding
 
-  vega@5.26.0(encoding@0.1.13):
+  vega@5.31.0(encoding@0.1.13):
     dependencies:
-      vega-crossfilter: 4.1.1(encoding@0.1.13)
-      vega-dataflow: 5.7.5(encoding@0.1.13)
-      vega-encode: 4.9.2(encoding@0.1.13)
+      vega-crossfilter: 4.1.3(encoding@0.1.13)
+      vega-dataflow: 5.7.7(encoding@0.1.13)
+      vega-encode: 4.10.2(encoding@0.1.13)
       vega-event-selector: 3.0.1
-      vega-expression: 5.1.0
-      vega-force: 4.2.0(encoding@0.1.13)
-      vega-format: 1.1.1
-      vega-functions: 5.14.0(encoding@0.1.13)
-      vega-geo: 4.4.1(encoding@0.1.13)
-      vega-hierarchy: 4.1.1(encoding@0.1.13)
-      vega-label: 1.2.1(encoding@0.1.13)
-      vega-loader: 4.5.1(encoding@0.1.13)
-      vega-parser: 6.2.1(encoding@0.1.13)
-      vega-projection: 1.6.0
-      vega-regression: 1.2.0(encoding@0.1.13)
-      vega-runtime: 6.1.4(encoding@0.1.13)
-      vega-scale: 7.3.1
-      vega-scenegraph: 4.11.0(encoding@0.1.13)
+      vega-expression: 5.1.2
+      vega-force: 4.2.2(encoding@0.1.13)
+      vega-format: 1.1.3
+      vega-functions: 5.16.0(encoding@0.1.13)
+      vega-geo: 4.4.3(encoding@0.1.13)
+      vega-hierarchy: 4.1.3(encoding@0.1.13)
+      vega-label: 1.3.1(encoding@0.1.13)
+      vega-loader: 4.5.3(encoding@0.1.13)
+      vega-parser: 6.4.1(encoding@0.1.13)
+      vega-projection: 1.6.2
+      vega-regression: 1.3.1(encoding@0.1.13)
+      vega-runtime: 6.2.1(encoding@0.1.13)
+      vega-scale: 7.4.2
+      vega-scenegraph: 4.13.1(encoding@0.1.13)
       vega-statistics: 1.9.0
-      vega-time: 2.1.1
-      vega-transforms: 4.11.0(encoding@0.1.13)
-      vega-typings: 1.0.0
-      vega-util: 1.17.2
-      vega-view: 5.11.1(encoding@0.1.13)
-      vega-view-transforms: 4.5.9(encoding@0.1.13)
-      vega-voronoi: 4.2.2(encoding@0.1.13)
-      vega-wordcloud: 4.1.4(encoding@0.1.13)
+      vega-time: 2.1.3
+      vega-transforms: 4.12.1(encoding@0.1.13)
+      vega-typings: 1.4.0
+      vega-util: 1.17.3
+      vega-view: 5.14.0(encoding@0.1.13)
+      vega-view-transforms: 4.6.1(encoding@0.1.13)
+      vega-voronoi: 4.2.4(encoding@0.1.13)
+      vega-wordcloud: 4.1.6(encoding@0.1.13)
     transitivePeerDependencies:
       - encoding
 
@@ -25748,7 +25791,7 @@ snapshots:
   vite-node@2.1.1(@types/node@22.10.5)(lightningcss@1.22.0):
     dependencies:
       cac: 6.7.14
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.3.7(supports-color@9.1.0)
       pathe: 1.1.2
       vite: 5.4.7(@types/node@22.10.5)(lightningcss@1.22.0)
     transitivePeerDependencies:
@@ -25785,7 +25828,7 @@ snapshots:
 
   vite-tsconfig-paths@4.2.2(typescript@5.7.2)(vite@6.0.7(@types/node@22.10.5)(lightningcss@1.22.0)(tsx@4.19.1)(yaml@2.6.1)):
     dependencies:
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.3.7(supports-color@9.1.0)
       globrex: 0.1.2
       tsconfck: 2.1.2(typescript@5.7.2)
     optionalDependencies:
@@ -25826,7 +25869,7 @@ snapshots:
       '@vitest/spy': 2.1.1
       '@vitest/utils': 2.1.1
       chai: 5.1.1
-      debug: 4.3.7(supports-color@8.1.1)
+      debug: 4.3.7(supports-color@9.1.0)
       magic-string: 0.30.11
       pathe: 1.1.2
       std-env: 3.7.0
